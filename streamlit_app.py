@@ -30,5 +30,5 @@ if uploaded_file:
         st.subheader("📈 Aggregated Data")
         st.write(aggregated_df)
     else:
-        st.warning("CSV must have at least one categorical and one numeric column.")
+        st.warning("CSV must have at least one categorical and one numeric column."
 )
